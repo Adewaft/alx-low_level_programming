@@ -19,8 +19,6 @@ int main(void)
 		if (lowc != e && lowc != q)
 			putchar(lowc);
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
-
-

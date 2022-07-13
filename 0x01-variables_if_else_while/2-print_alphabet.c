@@ -13,6 +13,6 @@ int main(void)
 
 	for (lowc = 'a'; lowc <= 'z'; lowc++)
 		putchar(lowc);
-		putchar('\n');
+	putchar('\n');
 	return (0);
 }
