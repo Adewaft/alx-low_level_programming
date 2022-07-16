@@ -10,14 +10,13 @@
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p'); 
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+	char hon[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	unsigned int c;
+
+	for (c = 0; c < sizeof(hon); c++)
+	{
+		_putchar(hon[c]);
+	}
+_putchar('\n');
+return (0);
 }
